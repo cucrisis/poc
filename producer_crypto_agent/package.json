@@ -1,0 +1,14 @@
+{
+    "name": "producer_crypto_agent",
+    "version": "1.0.0",
+    "description": "Producer crypto agent for encrypting data and sending jobs to SQS",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "aws-sdk": "^2.1049.0",
+      "express": "^4.17.1",
+      "body-parser": "^1.19.0"
+    }
+  }

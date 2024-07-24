@@ -1,0 +1,13 @@
+{
+    "name": "consumer_task",
+    "version": "1.0.0",
+    "description": "task for processing data inside Nitro Enclave",
+    "main": "task.js",
+    "scripts": {
+      "start": "node task.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "body-parser": "^1.19.0"
+    }
+  }
